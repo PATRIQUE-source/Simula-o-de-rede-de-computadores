@@ -1,0 +1,150 @@
+.canvas 
+{
+  -fx-background-color: black; 
+    
+  -fx-border-color: #3ca273; 
+
+  -fx-border-style: solid; 
+    
+  -fx-border-width: 3px; /* Define a espessura da borda */       
+    
+  -fx-border-radius: 3px; /* * Arredonda os cantos da borda. */     
+  
+  -fx-padding: 5px; /* Adiciona um espaço interno para o conteudo nao tocar nas bordas. */           
+}
+
+.codigoESinal 
+{
+  -fx-font-family: "Minecraft";
+
+  -fx-background-color: black; 
+
+  -fx-border-color: #3ca273; 
+
+  -fx-border-style: solid; 
+    
+  -fx-border-width: 3px; /* Define a espessura da borda */       
+    
+  -fx-border-radius: 3px; /* * Arredonda os cantos da borda. */     
+    
+  -fx-padding: 5px; /* Adiciona um espaço interno para o conteudo nao tocar nas bordas. */           
+    
+  -fx-control-inner-background: black; /* Fundo interno do controle de texto */
+
+  -fx-text-fill: #3ca273; /* Cor da fonte do texto */
+}
+
+/* Estilo geral para a barra de rolagem vertical */
+.codigoESinal .scroll-bar:vertical 
+{
+  -fx-background-color: #2A2E37; /* Cor de fundo da barra inteira */
+
+  -fx-background-radius: 10;
+
+  -fx-pref-width: 15; /* Largura da barra */
+}
+
+/* o trilho da barra de rolagem */
+.codigoESinal .scroll-bar:vertical .track 
+{
+  -fx-background-color: transparent; /* Deixa o trilho transparente para usar a cor de fundo geral */
+
+  -fx-border-color: transparent;
+
+  -fx-background-radius: 10;
+}
+
+.codigoESinal .scroll-bar:vertical .thumb 
+{
+  -fx-background-color: #6a6a7c; /* Cor principal do thumb */
+
+  -fx-background-insets: 2;
+
+  -fx-background-radius: 8; /* Deixa as bordas arredondadas */
+}
+
+/* Efeito quando o mouse passa por cima do thumb */
+.codigoESinal .scroll-bar:vertical .thumb:hover 
+{
+  -fx-background-color: #3ca273;
+}
+
+.codigoESinal .scroll-bar .increment-button,
+.codigoESinal .scroll-bar .decrement-button {
+  -fx-background-color: transparent;
+
+  -fx-background-radius: 0;
+
+  -fx-padding: 0 10 0 0;
+}
+
+.codigoESinal .scroll-bar .increment-arrow,
+.codigoESinal .scroll-bar .decrement-arrow 
+{
+  -fx-shape: " ";
+
+  -fx-padding: 0;
+}
+
+.button 
+{
+  -fx-font-family: "Minecraft";
+
+  -fx-text-fill:#d5000a;
+
+  -fx-background-color: transparent; /* Fundo transparente */
+
+  -fx-control-inner-background: transparent; /* Fundo interno do controle de texto */
+
+  -fx-border-color: transparent; /* Borda transparente */
+}
+
+.button:hover 
+{
+  -fx-text-fill: white;
+}
+
+.select 
+{
+  -fx-font-family: "Minecraft";
+
+	-fx-background-color: #101918;
+
+	-fx-control-inner-background: #101918; /* Fundo interno do controle de texto */
+
+  -fx-text-fill: #3ca273;
+}
+
+.button_main 
+{
+  -fx-font-family: "Minecraft";
+
+  -fx-text-fill: transparent; /* texto transparente */
+
+  -fx-background-color: transparent; /* Fundo transparente */
+
+  -fx-control-inner-background: transparent; /* Fundo interno do controle de texto */
+
+  -fx-border-color: transparent; /* Borda transparente */
+}
+
+.entradaESaida 
+{
+  -fx-font-family: "Minecraft";
+  
+	-fx-background-color: #a3e9c5; 
+
+  -fx-border-color: #3ca273; 
+
+  -fx-border-style: solid; 
+    
+  -fx-border-width: 3px; /* Define a espessura da borda */       
+    
+  -fx-border-radius: 3px; /* * Arredonda os cantos da borda. */     
+    
+  -fx-padding: 5px; /* Adiciona um espaço interno para o conteudo nao tocar nas bordas. */           
+    
+  -fx-control-inner-background: #a3e9c5; /* Fundo interno do controle de texto */
+
+  -fx-text-fill: black; /* Cor da fonte do texto */
+}
